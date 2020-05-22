@@ -1,0 +1,12 @@
+[INFO][20-05-22][com.sun.dao.UserDaoTest]info:进入
+[DEBUG][20-05-22][com.sun.dao.UserDaoTest]debug:进入
+[ERROR][20-05-22][com.sun.dao.UserDaoTest]error:进入
+[INFO][2020-05-22][com.sun.dao.UserDaoTest]info:进入
+[DEBUG][2020-05-22][com.sun.dao.UserDaoTest]debug:进入
+[ERROR][2020-05-22][com.sun.dao.UserDaoTest]error:进入
+[INFO][2020-05-22 16:12:35][com.sun.dao.UserDaoTest]info:进入
+[DEBUG][2020-05-22 16:12:35][com.sun.dao.UserDaoTest]debug:进入
+[ERROR][2020-05-22 16:12:35][com.sun.dao.UserDaoTest]error:进入
+[INFO][2020-05-22 16:14:20][com.sun.dao.UserDaoTest]info:进入
+[DEBUG][2020-05-22 16:14:20][com.sun.dao.UserDaoTest]debug:进入
+[ERROR][2020-05-22 16:14:20][com.sun.dao.UserDaoTest]error:进入

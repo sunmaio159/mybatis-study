@@ -1,12 +1,10 @@
 package com.sun.dao;
 
-import com.sun.pojo.User;
-import com.sun.utils.MybatisUtils;
+
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
+import com.sun.pojo.User;
+import com.sun.utils.MybatisUtils;
 
 public class UserDaoTest {
     @Test
