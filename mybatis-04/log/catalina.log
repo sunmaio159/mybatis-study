@@ -1,0 +1,3 @@
+[DEBUG][2020-05-24 22:08:02][com.sun.dao.UserMapper.getUserList]==>  Preparing: select * from user 
+[DEBUG][2020-05-24 22:08:02][com.sun.dao.UserMapper.getUserList]==> Parameters: 
+[DEBUG][2020-05-24 22:08:02][com.sun.dao.UserMapper.getUserList]<==      Total: 3

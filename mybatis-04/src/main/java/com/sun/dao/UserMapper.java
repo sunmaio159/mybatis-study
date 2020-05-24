@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface UserMapper {
-
+    @Select("select * from user")
     List<User> getUserList();
 
     User getUserByid(int id);
@@ -17,5 +17,5 @@ public interface UserMapper {
 
     int deleteUser(int id);
 
-    List<User> getUserByLimit(Map<String,Integer> map);
+    List<User> getUserByLimit(Map<String, Integer> map);
 }
