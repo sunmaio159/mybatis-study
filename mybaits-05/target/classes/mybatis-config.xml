@@ -7,9 +7,11 @@
 <!-- 核心配置文件 -->
 <configuration>
     <properties resource="database.properties"></properties>
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
     <!-- 可以给实体类起别名 -->
     <typeAliases>
-        <typeAlias type="com.sun.pojo.User" alias="User" />
         <package name="com.sun.pojo"/>
     </typeAliases>
     <environments default="development">
@@ -24,6 +26,7 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com\sun\dao\UserMapper.xml"></mapper>
+        <mapper class="com.sun.dao.TeacherMapper"></mapper>
+        <mapper class="com.sun.dao.StudentMapper"></mapper>
     </mappers>
 </configuration>

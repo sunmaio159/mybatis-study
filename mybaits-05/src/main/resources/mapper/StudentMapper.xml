@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- 核心配置文件 -->
+<mapper namespace="com.sun.dao.StudentMapper">
+    <select id="getStudentList" resultMap="StudentTeacher">
+        select * from student
+    </select>
+    <resultMap id="StudentTeacher" type="Student">
+        <result property="id" column="id"></result>
+        <result property="name" column="name"></result>
+
+        <association property="teacher" column="tid" javaType="Teacher" select="getteacher"></association>
+    </resultMap>
+
+    <select id="getteacher" resultType="Teacher">
+        select * from teacher
+    </select>
+</mapper>

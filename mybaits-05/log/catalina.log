@@ -1,0 +1,22 @@
+[DEBUG][2020-05-26 21:46:59][com.sun.dao.TeacherMapper.getTeacher]==>  Preparing: select * from Teacher 
+[DEBUG][2020-05-26 21:46:59][com.sun.dao.TeacherMapper.getTeacher]==> Parameters: 
+[DEBUG][2020-05-26 21:46:59][com.sun.dao.TeacherMapper.getTeacher]<==      Total: 1
+[DEBUG][2020-05-26 21:57:22][com.sun.dao.StudentMapper.getStudentList]==>  Preparing: select * from student 
+[DEBUG][2020-05-26 21:57:22][com.sun.dao.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][2020-05-26 21:57:22][com.sun.dao.StudentMapper.getStudentList]<==      Total: 5
+[DEBUG][2020-05-26 22:19:15][com.sun.dao.StudentMapper.getStudentList]==>  Preparing: select * from student 
+[DEBUG][2020-05-26 22:19:15][com.sun.dao.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][2020-05-26 22:19:15][com.sun.dao.StudentMapper.getteacher]====>  Preparing: select * from teacher 
+[DEBUG][2020-05-26 22:19:15][com.sun.dao.StudentMapper.getteacher]====> Parameters: 
+[DEBUG][2020-05-26 22:19:15][com.sun.dao.StudentMapper.getteacher]<====      Total: 1
+[DEBUG][2020-05-26 22:19:15][com.sun.dao.StudentMapper.getStudentList]<==      Total: 5
+[DEBUG][2020-05-26 22:40:35][com.sun.dao.StudentMapper.getStudentList2]==>  Preparing: select a.id sid,a.name sname,a.tid ,b.name teachername from student a, teacher b where a.tid=b.id 
+[DEBUG][2020-05-26 22:40:35][com.sun.dao.StudentMapper.getStudentList2]==> Parameters: 
+[DEBUG][2020-05-26 22:40:35][com.sun.dao.StudentMapper.getStudentList2]<==      Total: 5
+[DEBUG][2020-05-26 22:41:42][com.sun.dao.StudentMapper.getStudentList2]==>  Preparing: select a.id sid,a.name sname,a.tid ,b.name tname teachername from student a, teacher b where a.tid=b.id 
+[DEBUG][2020-05-26 22:41:42][com.sun.dao.StudentMapper.getStudentList2]==> Parameters: 
+[DEBUG][2020-05-26 22:43:19][com.sun.dao.StudentMapper.getStudentList2]==>  Preparing: select a.id sid,a.name sname,a.tid ,b.name tname teachername from student a, teacher b where a.tid=b.id 
+[DEBUG][2020-05-26 22:43:19][com.sun.dao.StudentMapper.getStudentList2]==> Parameters: 
+[DEBUG][2020-05-26 22:43:57][com.sun.dao.StudentMapper.getStudentList2]==>  Preparing: select a.id sid,a.name sname,a.tid ,b.name teachername from student a, teacher b where a.tid=b.id 
+[DEBUG][2020-05-26 22:43:57][com.sun.dao.StudentMapper.getStudentList2]==> Parameters: 
+[DEBUG][2020-05-26 22:43:57][com.sun.dao.StudentMapper.getStudentList2]<==      Total: 5
