@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- 核心配置文件 -->
+<mapper namespace="com.sun.dao.TeacherMapper">
+    <select id="getTeacher" resultMap="teacherStudent">
+        select a.id sid,a.name sname,a.tid,b.name tname from student a,teacher b
+        where a.tid = b.id
+        and b.id = #{tid}
+    </select>
+
+    <resultMap id="teacherStudent" type="Teacher">
+        <result property="id" column="tid"></result>
+        <result property="name" column="tname"></result>
+        <collection property="studentList" ofType="Student">
+            <result property="id" column="sid"></result>
+            <result property="name" column="sname"></result>
+            <result property="tid" column="tid"></result>
+        </collection>
+    </resultMap>
+</mapper>

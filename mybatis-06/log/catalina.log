@@ -1,0 +1,3 @@
+[DEBUG][2020-05-27 22:16:17][com.sun.dao.TeacherMapper.getTeacher]==>  Preparing: select a.id sid,a.name sname,a.tid,b.name tname from student a,teacher b where a.tid = b.id and b.id = ? 
+[DEBUG][2020-05-27 22:16:17][com.sun.dao.TeacherMapper.getTeacher]==> Parameters: 1(Integer)
+[DEBUG][2020-05-27 22:16:17][com.sun.dao.TeacherMapper.getTeacher]<==      Total: 5
